@@ -12,9 +12,6 @@ k = 1     annuly
 # r = rate
 # t = years after
 '''
-note that you can change the value in the shell
-this is the preset
-
 if the decimal is too long, ignore the one that behind alot of zeros
 and if the last place is different than the previous repeted places
 
