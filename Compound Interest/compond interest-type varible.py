@@ -45,7 +45,9 @@ print("""type the value in the function:
       fvr(FV,i,n):
       Annuities Present Value:
       pv(R,i,n):
-      pvr(PV,i,n):   """)
+      pvr(PV,i,n):
+      APY:
+      apy(r,k):  """)
 import math
 e = math.e
 """-----------------Annually compound-------------------------------"""
@@ -137,7 +139,10 @@ def pvr(PV,i,n):
     rr = (PV*i)/(1-((1+i)**(-n)))
     return rr 
 
-
+"""----------------------APY--------------------------"""
+def apy(r,k):
+    APY = ((1+(r/k))**k)-1
+    return APY
 
 
     
